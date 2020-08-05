@@ -63,5 +63,7 @@ function getTransaction(account) {
 
 }
 
-let toke = getCredentials();
-getAccounts(toke);
+
+let token = getCredentials();
+console.log(getAccounts(token));
+// UPDATE 05-08 je dois surement avoir un problme de sync avec les axios car je n'arrive pas a chain les calls
